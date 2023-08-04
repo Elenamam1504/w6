@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    justify-content:center;
+}
+
+.basic {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    height: 70vh;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    
+}
+
+.part {
+    text-align: center;
+    align-self: flex-end;
+    width: 100%;
+    height: 50%;
+}
+
+.more {
+    
+    background-color:yellow;
+    align-self: flex-end;
+    height: 15%;
+    flex-grow: 1;
+    margin: 10px;
+    text-align: center;}
+
+.more1 {
+    
+    background-color:yellow;
+    align-self: flex-end;
+    width: 100%;
+    height: 15%;
+    margin: 10px;
+    text-align: center;
+    
+    }
+
+.more2 {
+        
+        background-color:yellow;
+        align-self: flex-end;
+        height: 15%;
+        flex-grow: 1;
+        margin: 10px;
+        text-align: center;}
+    
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    background-color: lightgray;
+    
+}
+.content {
+    flex: 1;
+    background-color: lightyellow;
+    
+}
+aside {
+    width: 30vw;
+    height: 70vh;
+    background-color: lightgreen;
+    text-align: center;
+} 
+    
+footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+    
+}
+.section {
+    background-color: white;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.mainaside {
+    display:flex;
+
+}
